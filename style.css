@@ -3,6 +3,10 @@
     padding: 0;
     border: 0;
 }
+body {
+    text-align: center;
+    
+}
 
 h1{
     font:35.2px Arial, Helvetica,sans-serif ;
@@ -11,9 +15,31 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 p {
     text-align: center;
     font: 17.6px Arial,Helvetica,sans-serif;
     padding: 17.6px 0px;
+}
+
+#btn {
+    
+    text-align: center;
+    background: #333333;
+    color: black;
+    width: 170px;
+    font-size: 17px;
+    border: 2px solid white;
+    font: 17.6px Arial,Helvetica,sans-serif;
+    padding:17.6px 35.2px ;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+#btn:hover {
+   color: #333333;
+   background: white;
+   
+  
 }
