@@ -8,7 +8,7 @@ body {
     
 }
 
-h1{
+h1,h2{
     font:35.2px Arial, Helvetica,sans-serif ;
     color: black;
     padding: 100px 0px 0px;
@@ -52,3 +52,47 @@ p {
     margin: 20px;
     
 }
+main {
+    background: #333333;
+    color: #FFFFFF;
+    font: 17.6px Arial, Helvetica,sans-serif;
+    padding: 35.2px 17.6px 17.6px;
+}
+
+.menu-a {
+    background-image: url(https://static.pexels.com/photos/574077/pexels-photo-574077.jpeg);
+    background-size: cover; /*dimensiona a imagem de fundo pelo maior tamanho da janela, seja na altura ou largura,*/
+    height:250px;
+    width: 300px;
+}
+li {
+    display: flex;
+    font: 17.6px Arial,Helvetica,sans-serif;
+    padding: 26.4px;
+}
+ul{
+    
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+    background: #FFFFFF;
+    font: 20.592px Arial,Helvetica,sans-serif;
+    padding: 20.592px 0px;
+    height:200px;
+    width: 352px;
+}
+/*.menu-b {
+    background-image: url(https://static.pexels.com/photos/261628/pexels-photo-261628.jpeg);
+    display: inline-flex;
+    background-size: cover;
+    height:300px;
+    width: 300px;
+}*/
+
+/*.menu-c {
+    background-image:url(https://static.pexels.com/photos/265087/pexels-photo-265087.jpeg);
+    background-size: cover; 
+    height:300px;
+    width: 300px;
+}*/
+
