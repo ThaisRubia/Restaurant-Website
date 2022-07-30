@@ -24,17 +24,17 @@ p {
 }
 
 #btn {
-    
+
     text-align: center;
     background: #333333;
-    color: black;
+    color: #FFFFFF;
     width: 170px;
     font-size: 17px;
     border: 2px solid white;
     font: 17.6px Arial,Helvetica,sans-serif;
     padding:17.6px 35.2px ;
-    display: inline-block;
-    cursor: pointer;
+    display: inline-block;/*ele vai ocupar no site apenas a sua largura e altura originais*/
+    cursor: pointer;/*define o cursor do mouse como um "ponteiro" sobre determinado elemento*/
     transition-duration: 0.4s;
 }
 #btn:hover {
@@ -42,4 +42,13 @@ p {
    background: white;
    
   
+}
+
+.conteiner {
+    display: inline-block;
+    color: #333333;
+    font: 17.6px Arial, Helvetica,sans-serif;
+    padding: 0px 0px 17.6px;
+    margin: 20px;
+    
 }
