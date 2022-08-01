@@ -53,12 +53,32 @@ p {
     
 }
 main {
-    background: #333333;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-height: 700px;
+    text-align: center;
+    background-color: #333333;
     color: #FFFFFF;
     font: 17.6px Arial, Helvetica,sans-serif;
     padding: 35.2px 17.6px 17.6px;
+    
+    
+    
+    
 }
+.menu-one {
 
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+    background: #FFFFFF;
+    font: 20.592px Arial,Helvetica,sans-serif;
+    margin-top:  auto;
+    padding: 20.592px 0px;
+    height:200px;
+    width: 352px;
+}
 .menu-a {
     background-image: url(https://static.pexels.com/photos/574077/pexels-photo-574077.jpeg);
     background-size: cover; /*dimensiona a imagem de fundo pelo maior tamanho da janela, seja na altura ou largura,*/
@@ -81,18 +101,28 @@ ul{
     height:200px;
     width: 352px;
 }
+.menu-two {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+    background: #FFFFFF;
+    font: 20.592px Arial,Helvetica,sans-serif;
+    padding: 20.592px 0px;
+    height:200px;
+    width: 352px;
+}
 .menu-b {
     background-image: url(https://static.pexels.com/photos/261628/pexels-photo-261628.jpeg);
-    display: inline-flex;
     background-size: cover;
     height:250px;
     width: 300px;
 }
 
-/*.menu-c {
+.menu-c {
     background-image:url(https://static.pexels.com/photos/265087/pexels-photo-265087.jpeg);
     background-size: cover; 
-    height:300px;
+    height:250px;
     width: 300px;
-}*/
+}
 
