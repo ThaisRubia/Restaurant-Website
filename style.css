@@ -17,7 +17,9 @@ h1,h2{
     align-items: center;
     text-align: center;
 }
+
 p {
+    display: inline-block;
     text-align: center;
     font: 17.6px Arial,Helvetica,sans-serif;
     padding: 17.6px 0px;
@@ -30,7 +32,7 @@ p {
     color: #FFFFFF;
     width: 170px;
     font-size: 17px;
-    border: 2px solid white;
+    border: 2px white;
     font: 17.6px Arial,Helvetica,sans-serif;
     padding:17.6px 35.2px ;
     display: inline-block;/*ele vai ocupar no site apenas a sua largura e altura originais*/
@@ -53,32 +55,31 @@ p {
     
 }
 main {
+    
     flex-wrap: wrap;
     flex-direction: column;
     min-height: 700px;
     text-align: center;
+    align-items: center;
     background-color: #333333;
     color: #FFFFFF;
     font: 17.6px Arial, Helvetica,sans-serif;
     padding: 35.2px 17.6px 17.6px;
     
-    
-    
-    
 }
 .menu-one {
-
     display: inline-block;
     justify-content: center;
     align-items: center;
+    text-align: center;
     color: #333333;
-    background: #FFFFFF;
     font: 20.592px Arial,Helvetica,sans-serif;
     margin-top:  auto;
     padding: 20.592px 0px;
     height:200px;
     width: 352px;
 }
+
 .menu-a {
     background-image: url(https://static.pexels.com/photos/574077/pexels-photo-574077.jpeg);
     background-size: cover; /*dimensiona a imagem de fundo pelo maior tamanho da janela, seja na altura ou largura,*/
@@ -100,6 +101,11 @@ ul{
     padding: 20.592px 0px;
     height:200px;
     width: 352px;
+}
+ul,li {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .menu-two {
     display: inline-block;
@@ -125,4 +131,74 @@ ul{
     height:250px;
     width: 300px;
 }
+.div-needs {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #333333;
+    width: 880;
+    height: 92.4;
 
+
+}
+.one-needs {
+    font: 26.4px Arial,Helvetica,sans-serif;
+    padding: 26.4px 0px;
+}
+.needs {
+    color: #333333;
+    font: 17.6px Arial,Helvetica,sans-serif;
+    padding: 17.6px 0px;
+    line-height: 30px;
+}
+section { /* falo que, tudo que estiver dentro da minha section (pai) vai se comportar assim ...)*/
+    
+    color: #FFFFFF;
+    padding: 35.2px;
+    
+}
+#div-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 150px;
+    
+}
+
+.div-contacts {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+    background:#2990D4 ;
+}
+.contacts {
+    color: #FFFFFF;
+
+}
+#div-company {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+    background: #333333;
+}
+/*.div-box {
+    width: 700px;
+    
+}
+
+#div-box-two {
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+
+/*#footer {
+    
+    background: #000000;
+    color: #FFFFFF;
+    width: 100%;
+}*/
