@@ -157,42 +157,38 @@ section { /* falo que, tudo que estiver dentro da minha section (pai) vai se com
     padding: 35.2px;
     
 }
-#div-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    line-height: 150px;
-    
-}
-
-.div-contacts {
-    position: relative;
-    text-align: center;
-    align-items: center;
-    color: #FFFFFF;
-    background:#2990D4 ;
-}
-.contacts {
-    color: #FFFFFF;
-
-}
-#div-company {
+.div-a { 
     display: inline-block;
-    text-align: center;
-    align-items: center;
+    font: 17.6px Arial,Helvetica,sans-serif;
+    width: 500px;
+    height: 300px;
+    padding: 35.2px;
     color: #FFFFFF;
-    background: #333333;
+
+} 
+#div-a { 
+    height: 300px;
+    font: 17.6px Arial,Helvetica,sans-serif;
+    background: #2690d4;
+    padding: 17.6px 0px;
+  
 }
-/*.div-box {
-    width: 700px;
+#div-b {
+    height: 300px;
+    font: 17.6px Arial,Helvetica,sans-serif;
+    background: #333333;
+    padding: 17.6px 0px;
     
 }
-
-#div-box-two {
-    display: flex;
-    height: auto;
-    width: auto;
+#h1 {
+    color: #FFFFFF;
+    font: 26.4px Arial, Helvetica, sans-serif;
+    padding: 26.4px 0px;
+}
+#h2 {
+    color: #FFFFFF;
+    font: 26.4px Arial, Helvetica, sans-serif;
+    padding: 26.4px 0px;
 }
 
 
