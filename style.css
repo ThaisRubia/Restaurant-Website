@@ -4,7 +4,9 @@
     border: 0;
 }
 body {
+    
     text-align: center;
+    line-height: 1.5;
     
 }
 
@@ -152,35 +154,51 @@ ul,li {
     line-height: 30px;
 }
 section { /* falo que, tudo que estiver dentro da minha section (pai) vai se comportar assim ...)*/
-    
+    display: inline-block;
     color: #FFFFFF;
     padding: 35.2px;
     
 }
+
 .div-a { 
     display: inline-block;
-    font: 17.6px Arial,Helvetica,sans-serif;
-    width: 500px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-width: 450px;
+    grid-column: span 2;
     height: 300px;
-    padding: 35.2px;
-    color: #FFFFFF;
+    color: #333333;
+        
+    font: 17.6px Arial, Helvetica,sans-serif;
+    padding: 35.2px 
 
-} 
+}
 #div-a { 
+    
     height: 300px;
     font: 17.6px Arial,Helvetica,sans-serif;
     background: #2690d4;
     padding: 17.6px 0px;
+    margin-right: -34px;
+    
+    
   
 }
 #div-b {
+    
     height: 300px;
     font: 17.6px Arial,Helvetica,sans-serif;
     background: #333333;
     padding: 17.6px 0px;
-    
+    margin-right: -34px;
+
 }
-#h1 {
+.paragraf {
+    color: white;
+    margin: 0px 20px 0px 0px;
+    margin-left: 10px;
+}
+/*#h1 {
     color: #FFFFFF;
     font: 26.4px Arial, Helvetica, sans-serif;
     padding: 26.4px 0px;
@@ -191,10 +209,19 @@ section { /* falo que, tudo que estiver dentro da minha section (pai) vai se com
     padding: 26.4px 0px;
 }
 
-
-/*#footer {
-    
+/*
+#footer {
+    display: block;
     background: #000000;
     color: #FFFFFF;
     width: 100%;
-}*/
+    text-align: center;
+}
+
+
+.footer {
+    padding-left: 20px;
+}
+.one {
+    display: inline-block;
+}
